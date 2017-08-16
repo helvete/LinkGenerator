@@ -1,0 +1,11 @@
+parameters:
+  baseUri: https://www.example.com/
+
+services:
+  Nette\Http\Url:
+    arguments:
+      url: %baseUri%
+  helvete\Tools\LinkGenerator:
+    arguments:
+      router: "@Application\\Router"
+      presenterFactory: "@Nette\\Application\\PresenterFactory"

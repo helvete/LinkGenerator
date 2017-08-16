@@ -1,0 +1,17 @@
+{
+	"name": "helvete/LinkGenerator",
+	"type": "nette-library",
+	"description": "LinkGenerator for CLI usage w/ Nette 2.1",
+	"authors": [
+		{
+			"name": "helvete"
+		}
+	],
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require": {
+		"php": ">= 5.3.0",
+		"nette/application": "~2.1.0"
+	}
+}
